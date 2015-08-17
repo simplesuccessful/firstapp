@@ -1,7 +1,7 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+this is the first attempt at changing the original files for my
+first careerfoundry app written in rails
 
 Things you may want to cover:
 
