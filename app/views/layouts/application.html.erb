@@ -3,7 +3,8 @@
 <head>
   <title>Nameofapp</title>
   <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag    'default', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'default', 'data-turbolinks-track' => true %>
   <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
   <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
   <%= csrf_meta_tags %>
@@ -11,6 +12,7 @@
 <body>
 <h1>Welcome to BikeChains.com</h1>
 <h2>Road Bike, SRAM, Shimano, Single speed, Mountain bike or BMX, we have the chains for your bike</h2>
+<p>just want to check that i can update these files ok</p>
 <%= image_tag("Rusty_bike_chain_02.jpg") %>
 <%= yield %>
 
